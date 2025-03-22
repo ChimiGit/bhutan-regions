@@ -1,6 +1,6 @@
 {
   "name": "bhutan-regions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive list of Bhutan's dzongkhags (districts) and gewogs (sub-districts) in both English and Dzongkha",
   "main": "src/index.js",
   "scripts": {
