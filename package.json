@@ -1,10 +1,11 @@
 {
   "name": "bhutan-regions",
   "version": "1.0.0",
-  "description": "A comprehensive list of Bhutan's dzongkhags (districts) and gewogs (sub-districts)",
+  "description": "A comprehensive list of Bhutan's dzongkhags (districts) and gewogs (sub-districts) in both English and Dzongkha",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "example": "node example.js"
   },
   "keywords": [
     "bhutan",
@@ -13,9 +14,10 @@
     "district",
     "administrative-divisions",
     "geography",
-    "regions"
+    "regions",
+    "dzongkha"
   ],
-  "author": "Chimi Tshering",
+  "author": "Your Name",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -27,5 +29,8 @@
   "homepage": "https://github.com/ChimiGit/bhutan-regions#readme",
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

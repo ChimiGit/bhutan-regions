@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+title: Bhutan Regions
+description: A comprehensive npm package for Bhutan's dzongkhags and gewogs in both English and Dzongkha
+show_downloads: true
+github:
+  is_project_page: true
