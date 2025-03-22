@@ -13,6 +13,8 @@ npm install bhutan-regions
 ```javascript
 const bhutanRegions = require("bhutan-regions");
 
+import * as bhutanRegions from "bhutan-regions";
+
 // Get all dzongkhags (districts) in English
 const allDzongkhags = bhutanRegions.getAllDzongkhags();
 console.log(allDzongkhags);

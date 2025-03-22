@@ -1,0 +1,14 @@
+# Tests
+tests/
+coverage/
+
+# GitHub specific files
+.github/
+docs/
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+
+# Development files
+.git/
+.gitignore
+example.js
