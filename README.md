@@ -2,6 +2,8 @@
 
 A comprehensive npm package providing data and utility functions for all of Bhutan's administrative divisions: dzongkhags (districts) and gewogs (sub-districts) in both English and Dzongkha script (རྫོང་ཁ).
 
+**Updated for 2024-2025** with verified official administrative divisions data from Bhutan government sources.
+
 ## Installation
 
 ```bash
@@ -72,8 +74,8 @@ console.log(allRegions);
 // [{ dzongkhag: 'Bumthang', dzongkhagDzongkha: 'བུམ་ཐང་', gewogs: [...] }, ...]
 
 // Count dzongkhags and gewogs
-console.log(`Bhutan has ${bhutanRegions.countDzongkhags()} dzongkhags`);
-console.log(`Bhutan has ${bhutanRegions.countGewogs()} gewogs`);
+console.log(`Bhutan has ${bhutanRegions.countDzongkhags()} dzongkhags`); // 20
+console.log(`Bhutan has ${bhutanRegions.countGewogs()} gewogs`); // 206
 
 // Check if a name is a valid dzongkhag or gewog
 console.log(bhutanRegions.isDzongkhag("Thimphu")); // true
@@ -168,6 +170,28 @@ The data is organized as an array of objects, each representing a dzongkhag with
   // ...
 ];
 ```
+
+## What's New in v2.0.0
+
+This major version update includes verified data from official Bhutan government sources (2024-2025):
+
+- ✅ All 20 dzongkhags verified
+- ✅ 206 gewogs with official spellings
+- ✅ Corrected gewog names (Metakha, Dogar, Dopshari, Kangpar, Udzorong, Yangneer)
+- ✅ Added missing Barp gewog in Punakha
+- ✅ Updated Jest to v30.5.2
+- ✅ All Dzongkha script names verified
+
+See [CHANGELOG.md](CHANGELOG.md) for full details.
+
+## Data Accuracy
+
+The data in this package has been verified against official sources including:
+- Individual Dzongkhag Administration websites (*.gov.bt)
+- Election Commission of Bhutan (2024 election data)
+- Official government publications
+
+Last verified: October 2026
 
 ## License
 
